@@ -105,3 +105,33 @@ footer {
   background: black;
   width: 100%;
   right: 1em; }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  background-color: DodgerBlue;
+  padding: 3em;
+  background-image: url("https://avatanplus.com/files/resources/original/576d213dbdfb41558249d952.jpg");
+  background-size: 100%; }
+
+.container-text {
+  margin: 0;
+  padding: 1em;
+  font-family: Abel;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #AA924F; }
+
+.container-text:hover {
+  color: white; }
+
+.container-disco {
+  text-align: center;
+  width: 14em;
+  font-size: 30px;
+  padding-bottom: 1em; }
+
+.img-discos {
+  width: 14em; }
