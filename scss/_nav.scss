@@ -1,3 +1,28 @@
-.img-responsive{
-	padding: 10em;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background: black;
+    margin: 0;
+}
+
+.listas {
+    display: flex;
+    width: 100%;
+    background: black;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 0 2em;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 5%;
+}
+
+.button-list {
+    background: none;
+    border: none;
 }
