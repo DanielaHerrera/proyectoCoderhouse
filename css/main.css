@@ -100,7 +100,8 @@ nav {
   display: flex;
   flex-wrap: wrap;
   min-width: 100%;
-  width: 100%; }
+  width: 100%;
+  overflow: hidden; }
 
 .section {
   margin: -20px; }
@@ -159,8 +160,7 @@ footer {
   text-align: center;
   content-left: 30em;
   background: black;
-  width: 100%;
-  right: 1em; }
+  width: 100%; }
 
 .giphy-embed {
   width: 20em; }
@@ -194,3 +194,17 @@ footer {
 
 .img-discos {
   width: 14em; }
+
+.banda {
+  position: relative;
+  min-width: 100%;
+  width: 124%;
+  margin-left: -130px; }
+
+.span-bio {
+  position: absolute;
+  padding: 0 1em 2em 1em;
+  top: 152em;
+  right: 9em;
+  left: 9em;
+  background: rgba(0, 0, 0, 0.65); }
