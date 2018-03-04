@@ -15,71 +15,127 @@ body nav {
   border-radius: 5px;
   z-index: 999; }
 
+.title-text {
+  display: inline-block;
+  font-family: Abel;
+  padding: 1em  31.4em 0.4em 0;
+  color: #f5f5f5;
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  border-bottom: 1px solid #AA924F; }
+
+.title-text:hover {
+  color: #AA924F;
+  font-family: Abel;
+  border-bottom: 1px solid #f5f5f5; }
+
+.text {
+  font-family: Abel;
+  padding: 0.5em 0;
+  font-size: 16px;
+  color: #f5f5f5;
+  font-family: 'Abel';
+  text-align: justify; }
+
+.title-text-news {
+  font-family: Abel;
+  padding: 0em 34.4em 0.4em 0;
+  margin: 0 23.3em 0 0;
+  color: #f5f5f5;
+  font-family: 'Abel', sans-serif;
+  border-bottom: 1px solid #AA924F; }
+
+.title-text-news:hover {
+  color: #AA924F;
+  font-family: Abel;
+  border-bottom: 1px solid #f5f5f5; }
+
+.text-ex {
+  font-family: Abel;
+  padding: 0.5em 0;
+  font-size: 14px;
+  color: #f5f5f5;
+  font-family: 'Abel';
+  text-align: justify; }
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   background: black;
-  margin: 0; }
+  padding: 0 7em; }
 
 .listas {
   display: flex;
   width: 100%;
   background: black;
   justify-content: space-between;
-  align-items: center;
-  padding: 0 2em; }
+  align-items: center; }
 
 .logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 5%; }
+  width: 4em; }
 
 .button-list {
   background: none;
-  border: none; }
+  border: none;
+  text-decoration: none; }
+
+.buttonlist {
+  color: #AA924F;
+  text-decoration: none; }
+
+.buttonlist:hover {
+  color: #f5f5f5;
+  font-family: Abel;
+  border-bottom: 1px solid #AA924F;
+  text-decoration: none; }
+
+.img-responsive {
+  margin: 7px 0; }
 
 .video_background {
   display: flex;
+  flex-wrap: wrap;
   min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto; }
+  width: 100%; }
+
+.section {
+  margin: -20px; }
 
 .newsletter {
   background: black;
-  padding-top: 10px;
-  font-size: 1.2em;
+  padding: 1em 9.3em;
+  font-size: 1.1em;
   color: #AA924F; }
 
-h4 {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0.8em 26.4em 0.5em 0;
-  border-bottom: 1px solid white; }
+.formulario {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  background: black;
+  padding: 1em 9.3em;
+  font-size: 1.1em;
+  color: #AA924F; }
 
 .email {
-  display: inline-flex;
-  justify-content: center;
-  align-items: baseline;
+  display: inline-block;
   width: 36.4%;
   font-family: 'Abel', sans-serif;
   font-size: 1em;
   padding: 1em;
-  margin-bottom: 1em;
+  margin: 1em 0 0 -613px;
   border-radius: 6px;
   border-style: none; }
 
 .bottom {
-  display: inline-flex;
-  justify-content: center;
-  align-items: baseline;
+  display: inline-block;
   background: linear-gradient(-40deg, #7A6425, #AA924F);
   color: white;
   margin-top: 1em;
-  padding: 1.2em 2.5em;
+  padding: 1.07em 2.5em;
   border-radius: 6px;
   border-style: none; }
 
@@ -106,12 +162,15 @@ footer {
   width: 100%;
   right: 1em; }
 
+.giphy-embed {
+  width: 20em; }
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
   background-color: DodgerBlue;
-  padding: 3em;
+  padding: 1em 9.3em;
   background-image: url("https://avatanplus.com/files/resources/original/576d213dbdfb41558249d952.jpg");
   background-size: 100%; }
 
@@ -130,7 +189,7 @@ footer {
 .container-disco {
   text-align: center;
   width: 14em;
-  font-size: 30px;
+  font-size: 25.9px;
   padding-bottom: 1em; }
 
 .img-discos {

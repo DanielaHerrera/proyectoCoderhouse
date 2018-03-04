@@ -1,7 +1,10 @@
 .video_background { 
 	display: flex;
+	flex-wrap: wrap;
 	min-width: 100%; 
-	min-height: 100%; 
-	width: auto; 
-	height: auto; 
+	width: 100%; 
+}
+
+.section{
+	margin: -20px;
 }

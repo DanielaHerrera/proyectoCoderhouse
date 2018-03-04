@@ -16,10 +16,10 @@
 	<main>
 	<nav>
 		<div class="listas">
-			<div class="logo"><h1><a href="index.html"><img src="img/ff-central.png" class="img-responsive" alt="The Sky's a Neighborhood"></a></h1></div>
+			<div class="logo"><h1 class="img-responsive"><a href="index.html"><img src="img/ff-central.png" class="img-responsive" alt="The Sky's a Neighborhood"></a></h1></div>
 			<div class="list">
 				<div class="btn-group" role="group">
-						<button class="drop-list button-list" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href="views/discografia.html" target="_blank" class="button-list">
+						<button class="drop-list button-list" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href="views/discografia.html" target="_blank" class="buttonlist">
 						Discografía
 						<span class="caret"></span></a>
 						</button>
@@ -27,20 +27,25 @@
 								<li><a href="views/integrantes.html" target="_blank">Concrete and Gold</a></li>
 								<li><a href="views/integrantes.html" target="_blank">Echoes, Silence, Patience & Grace</a></li>
 							</ul>
-					<button class="button-list"><a href="views/integrantes.html" target="_blank" class="button-list">Integrantes</a></button>
-					<button class="button-list"><a href="views/merchandising.html" target="_blank" class="button-list">Merchandising</a></button>
-					<button class="button-list"><a href="views/videos.html" target="_blank" class="button-list">Videos</a></button>
-					<button class="button-list"><a href="views/tours.html" target="_blank" class="button-list">Tours</a></button>
+					<button class="button-list"><a href="views/integrantes.html" target="_blank" class="buttonlist">Integrantes</a></button>
+					<button class="button-list"><a href="views/merchandising.html" target="_blank" class="buttonlist">Merchandising</a></button>
+					<button class="button-list"><a href="views/videos.html" target="_blank" class="buttonlist">Videos</a></button>
+					<button class="button-list"><a href="views/tours.html" target="_blank" class="buttonlist">Tours</a></button>
 				</div>
 			</div>
 		</div>
+
+	</nav>
+	<section>
 		<div class="section">
 			<h3><video autoplay="autoplay" loop="loop" class="video_background" preload="auto" alt="The Sky's a Neighborhood"><source src="video/videoBackground.mp4" type="video/mp4" />
 			</video/></h3>
 		</div>
-	</nav>
-	<section>
 		<div class="flex-container">
+			<div>
+				<h2 class="title-text">DISCOGRAFÍA</h2>
+				<p class="text">Foo Fighters cuenta con 9 álbumes de estudio Foo Fighters (1995), The Colour and the Shape (1997), There Is Nothing Left to Lose (1999), One by One (2002), In Your Honor (2005), Echoes, Silence, Patience & Grace (2007), Wasting Light (2011), Sonic Highways (2014) y Concrete and Gold (2017)</p>
+			</div>
 			<div class="container-disco">
 				<h3 class="container-text">Concrete and Gold (2017)</h3>
 				<a href="disco2017.html"><img class="img-discos" src="img/disco1.jpeg" alt="Concrete and Gold"/></a>
@@ -54,7 +59,7 @@
 				<a href="disco2017.html"><img class="img-discos" src="img/disco3.jpg" alt="Wasting Light"/></a>
 			</div>
 			<div class="container-disco">
-				<h3 class="container-text">Echoes, Silence, Patience & Grace (2007)</h3>
+				<h3 class="container-text">Echoes, Silence, Patience & Grace</h3>
 				<a href="disco2007.html"><img class="img-discos" src="img/disco4.jpg" alt="Echoes, Silence, Patience & Grace"/></a>
 			</div>	
 			<div class="container-disco">
@@ -81,19 +86,23 @@
 	</section>
 	<footer>
 		<div class="newsletter">	
-			<h4>NEWSLETTER</h4>
-			<h5>Suscríbete al correo oficial de Foo Fighters para obtener información exclusiva.</h5>
+			<h4 class="title-text-news">NEWSLETTER</h4>
+			<h5 class="text-ex">Suscríbete al correo oficial de Foo Fighters para obtener información actualizada y exclusiva</h5>
+			<div>
 			<form action="/action_page.php" method="get">
 				<label class="label" for="email"></label>
 				<input type="text" class="email" name="email" placeholder="tu email@ejemplo.com">
 				<button class="bottom" type="submit" value="Subscribir" target="_blank"><i class="fas fa-angle-right"></i></button>
 			</form>
-			<h6>© FOO FIGHTERS OFFICIAL STORE 2018</h6>
+			</div>
+			<div class="redes1">
 			<ul class="redes">
 				<li class="redes"><a class="redes" href="https://www.instagram.com/foofighters/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></a></li>
 				<li class="redes"><a class="redes" href="https://www.facebook.com/foofighters/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
 				<li class="redes"><a class="redes" href="https://www.youtube.com/channel/UCGRjJrpD2bmk9Ilq6nq80qg" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
 			</ul>
+			<iframe src="https://giphy.com/embed/l378nVujSRj3Grhxm" frameBorder="0" class="giphy-embed"></iframe>
+			</div>
 		</div>
 		<div>			
 			<a href="index.html" class="top">
@@ -103,6 +112,7 @@
         	</div>
         	</a>
         </div>
+        <h6>© FOO FIGHTERS OFFICIAL STORE 2018</h6>
 	</footer>
 	</main>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
