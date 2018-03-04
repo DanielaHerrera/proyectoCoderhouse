@@ -207,4 +207,70 @@ footer {
   top: 152em;
   right: 9em;
   left: 9em;
-  background: rgba(0, 0, 0, 0.65); }
+  background: rgba(0, 0, 0, 0.65);
+  border-radius: 6px; }
+
+.youtube {
+  position: relative;
+  left: 186px;
+  width: 777px;
+  height: 438px;
+  border: none;
+  border-radius: 6px; }
+
+.background-tours {
+  background-image: none;
+  background: red; }
+
+.titulotours {
+  position: relative;
+  display: inline-block;
+  left: 370px;
+  font-family: Abel, sans-serif;
+  border-bottom: 1px solid white;
+  color: #AA924F;
+  padding: 0.8em 36.2% 0.5em 0;
+  margin-bottom: 0.2em;
+  font-size: 30px; }
+
+.titulotours:hover {
+  color: white;
+  border-bottom: 1px solid #AA924F; }
+
+.tabla {
+  position: relative;
+  display: inline-block;
+  font-family: Abel, sans-serif;
+  color: white;
+  padding: 0.8em 40% 0.5em 0;
+  margin-bottom: 0.5em; }
+
+table {
+  display: block;
+  position: relative;
+  left: 370px; }
+
+th {
+  font-family: Abel, sans-serif;
+  font-size: 24px;
+  color: white;
+  padding: 0 0 1em 0; }
+
+td {
+  border-right: dotted 1px #AA924F;
+  border-left: dotted 1px #AA924F;
+  padding: 1.5em;
+  margin-top: 2em; }
+
+.detalles {
+  padding-top: 1em;
+  text-align: center;
+  position: relative;
+  left: 370px; }
+
+span {
+  color: #AA924F; }
+
+span:hover {
+  color: white;
+  text-decoration: underline; }
