@@ -1,0 +1,59 @@
+.container-table{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tabla{
+    position: relative;
+	display: inline-block;
+    font-family: Abel, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.th{
+    font-family: Abel, sans-serif;
+    font-size: 24px;
+    color: white;
+    padding: 0.5em;    
+    text-align: center;
+}
+
+.td{
+	border-right: dotted 1px #AA924F;
+	border-left: dotted 1px #AA924F;
+	margin-top: 2em;
+	padding: 1em;
+    font-size: 16px;
+}
+
+.detalles{
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+.detalles-click{
+	color: #AA924F;
+}
+
+.detalles-click:hover{
+	color:white;
+	text-decoration: underline;
+}
+
+.bottom-tickets{
+	display: flex;
+	text-align: vertical;
+	background: linear-gradient(-40deg, #7A6425, #AA924F);
+	color: white;
+	padding: 0.5em;
+	border-radius: 6px;
+	border-style: none;
+	text-decoration: none;
+}
+
+.bottom-tickets:hover{
+	background: linear-gradient(40deg, #AA924F, #7A6425);
+	text-decoration: none;
+}

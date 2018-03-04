@@ -1,0 +1,23 @@
+.bottom-comprar{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	background: linear-gradient(-40deg, #7A6425, #AA924F);
+	color: white;
+	padding: 0.5em;
+	border-radius: 6px;
+	border-style: none;
+	text-decoration: none;
+}
+
+.bottom-comprar:hover{
+	background: linear-gradient(20deg, #AA924F, #7A6425);
+	text-decoration: none;
+}
+
+.thumbnail{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family: abel;
+}
