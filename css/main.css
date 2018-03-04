@@ -58,6 +58,14 @@ body nav {
   font-family: 'Abel';
   text-align: justify; }
 
+.particles-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -9999; }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -169,10 +177,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
-  background-color: DodgerBlue;
-  padding: 1em 9.3em;
-  background-image: url("https://avatanplus.com/files/resources/original/576d213dbdfb41558249d952.jpg");
-  background-size: 100%; }
+  padding: 1em 9.3em; }
 
 .container-text {
   margin: 0;
