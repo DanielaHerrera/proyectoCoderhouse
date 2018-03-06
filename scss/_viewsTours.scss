@@ -1,15 +1,15 @@
 .container-table{
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	width: 100%
 }
 
 .tabla{
-    position: relative;
-	display: inline-block;
     font-family: Abel, sans-serif;
     color: white;
-    text-decoration: none;
+    text-decoration: none;    
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .th{
@@ -44,7 +44,7 @@
 
 .bottom-tickets{
 	display: flex;
-	text-align: vertical;
+	text-align: center;
 	background: linear-gradient(-40deg, #7A6425, #AA924F);
 	color: white;
 	padding: 0.5em;
@@ -57,3 +57,8 @@
 	background: linear-gradient(40deg, #AA924F, #7A6425);
 	text-decoration: none;
 }
+
+.button-tours{
+	display: flex;
+	flex-direction: column;
+ }

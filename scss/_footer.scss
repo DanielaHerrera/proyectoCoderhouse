@@ -1,5 +1,5 @@
 .newsletter{
-	background: black;
+	width: 100%;
 	padding: 1em 9.3em;
 	font-size: 1.1em;
 	color: #AA924F;
@@ -16,18 +16,15 @@
 }
 
 .email{
-	display: inline-block;
-	width: 36.4%;
 	font-family: 'Abel', sans-serif;
 	font-size: 1em;
 	padding: 1em;
-	margin: 1em 0 0 -613px;
+	margin: 1em 0;
 	border-radius: 6px;
 	border-style: none;
 }
 
 .bottom{
-	display: inline-block;
   	background: linear-gradient(-40deg, #7A6425, #AA924F);
 	color: white;
 	margin-top: 1em;
@@ -38,7 +35,7 @@
 
 .redes{
 	display: inline-flex;
-	padding: 5px;	
+	padding: 0 0.2em;	
 	font-size: xx-large;
 	color: white;
 }
@@ -61,6 +58,12 @@ footer{
 	width: 100%;
 }
 
+ .copyright{
+ 	align-content: center;
+ 	padding: 0;
+ }
+
 .giphy-embed{
-	 width: 20em;
+	display: inline-flex;
+	width: 20em;
 }
