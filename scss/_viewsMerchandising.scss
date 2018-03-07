@@ -20,4 +20,29 @@
 	text-align: center;
 	justify-content: center;
 	font-family: abel;
+	background-color: #f8eff0;
+	animation-name: zoomIn;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+	animation-duration: 2s;
+}
+
+/*the animation definition*/
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3)
+  }
+  50% {
+    opacity: 1
+  }
+}
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3)
+  }
+  50% {
+    opacity: 1
+  }
 }

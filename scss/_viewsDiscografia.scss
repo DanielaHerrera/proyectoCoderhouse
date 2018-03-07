@@ -28,4 +28,21 @@
 
 .img-discos{
 	width: 14em;
+	animation-name: pulse;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-iteration-count: 2;
+	animation-duration: 2s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale3d(1, 1, 1)
+  }
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05)
+  }
+  100% {
+    transform: scale3d(1, 1, 1)
+  }
 }
