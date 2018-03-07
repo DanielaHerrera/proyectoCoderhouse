@@ -322,7 +322,20 @@ nav {
   font-family: Abel;
   width: 100%;
   color: #f5f5f5;
-  border-bottom: 1px solid #AA924F; }
+  border-bottom: 1px solid #AA924F;
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-duration: 2s; }
+
+/*the animation definition*/
+@keyframes pulse {
+  0% {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible; }
+  100% {
+    transform: translate3d(0, 0, 0); } }
 
 .title-text:hover {
   color: #AA924F;
@@ -505,17 +518,6 @@ nav {
   color: #AA924F;
   background: none; }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  font-family: 'Abel';
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 1em;
-  font-weight: bold;
-  color: white;
-  width: 100%; }
-
 .copyright {
   width: 100%;
   align-content: center;
@@ -525,6 +527,30 @@ footer {
 .giphy-embed {
   display: inline-flex;
   width: 20em; }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Abel';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-duration: 2s; }
+
+/*the animation definition*/
+@keyframes pulse {
+  0% {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible; }
+  100% {
+    transform: translate3d(0, 0, 0); } }
 
 .flex-container {
   display: flex;
@@ -552,25 +578,25 @@ footer {
 
 .img-discos {
   width: 14em;
-  animation-name: pulse;
-  animation-duration: 1s;
+  animation-name: zoomIn;
   animation-fill-mode: both;
-  animation-iteration-count: 2;
-  animation-duration: 2s; }
+  animation-iteration-count: 1;
+  animation-duration: 5s; }
 
-@keyframes pulse {
+/*the animation definition*/
+@keyframes zoomIn {
   0% {
-    transform: scale3d(1, 1, 1); }
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3); }
   50% {
-    transform: scale3d(1.05, 1.05, 1.05); }
-  100% {
-    transform: scale3d(1, 1, 1); } }
+    opacity: 1; } }
 
-.banda {
-  position: relative;
-  min-width: 100%;
-  width: 124%;
-  margin-left: -130px; }
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3); }
+  50% {
+    opacity: 1; } }
 
 .span-bio {
   position: absolute;
@@ -581,16 +607,71 @@ footer {
   background: rgba(0, 0, 0, 0.65);
   border-radius: 6px; }
 
+.banda {
+  position: relative;
+  min-width: 100%;
+  width: 124%;
+  margin-left: -130px;
+  animation-name: tada;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1; }
+
+/*the animation definition*/
+@keyframes tada {
+  0% {
+    transform: scale3d(1, 1, 1); }
+  10%,
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); }
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); }
+  40%,
+  60%,
+  80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); }
+  100% {
+    transform: scale3d(1, 1, 1); } }
+
 .youtube {
   position: relative;
   left: 186px;
   width: 777px;
   height: 438px;
   border: none;
-  border-radius: 6px; }
+  border-radius: 6px;
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-duration: 2s; }
+
+/*the animation definition*/
+@keyframes pulse {
+  0% {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible; }
+  100% {
+    transform: translate3d(0, 0, 0); } }
 
 .container-table {
-  width: 100%; }
+  width: 100%;
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-duration: 2s; }
+
+/*the animation definition*/
+@keyframes pulse {
+  0% {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible; }
+  100% {
+    transform: translate3d(0, 0, 0); } }
 
 .tabla {
   font-family: Abel, sans-serif;

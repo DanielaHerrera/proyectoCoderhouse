@@ -31,18 +31,6 @@
 	background: none;
 }
 
-footer{
-	display: flex;
-	justify-content: space-between;
-	font-family: 'Abel';
-	text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 1em;
-	font-weight: bold;
-	color: white;
-	width: 100%;
-}
-
  .copyright{
  	width: 100%;
  	align-content: center;
@@ -53,4 +41,33 @@ footer{
 .giphy-embed{
 	display: inline-flex;
 	width: 20em;
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Abel';
+	text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1em;
+	font-weight: bold;
+	color: white;
+	width: 100%;
+	animation-name: pulse;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+	animation-duration: 2s;
+}
+
+/*the animation definition*/
+
+@keyframes pulse {
+  0% {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible
+  }
+  100% {
+    transform: translate3d(0, 0, 0)
+  }
 }
