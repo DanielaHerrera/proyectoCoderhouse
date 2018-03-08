@@ -85,3 +85,100 @@
 	display: flex;
 	flex-direction: column;
  }
+
+ 
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+.container-table{
+    width: 100%;
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+}
+
+/*the animation definition*/
+
+@keyframes pulse {
+  0% {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible
+  }
+  100% {
+    transform: translate3d(0, 0, 0)
+  }
+}
+
+.tabla{
+    font-family: Abel, sans-serif;
+    color: white;
+    text-decoration: none;    
+    width: 87%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.th{
+    font-family: Abel, sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 0;    
+    text-align: center;
+}
+
+.td{
+    border-right: dotted 1px #AA924F;
+    border-left: dotted 1px #AA924F;
+    padding: 0.3em 1em;
+    font-size: 12px;
+}
+
+.detalles{
+    padding: 0.5em 0;
+    text-align: center;
+    font-family: Abel;
+    font-size: 14px;
+    color: #f5f5f5;
+    width: 90%;
+}
+
+.detalles-click{
+    color: #AA924F;
+}
+
+.detalles-click:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+.bottom-tickets{
+    display: flex;
+    text-align: center;
+    background: linear-gradient(-40deg, #7A6425, #AA924F);
+    color: white;
+    padding: 0.2em;
+    border-radius: 6px;
+    border-style: none;
+    text-decoration: none;
+}
+
+.bottom-tickets:hover{
+    background: linear-gradient(40deg, #AA924F, #7A6425);
+    text-decoration: none;
+}
+
+.button-tours{
+    display: flex;
+    flex-direction: column;
+ }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px){
+
+}
+
+@media only screen and (min-width: 1025px){
+
+}

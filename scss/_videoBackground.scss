@@ -8,18 +8,17 @@
 }
 
 .section{
-	margin: -20px;
 	position: relative;
 }
 
 .text_video_background-1{
 	position: absolute;
 	font-family: 'Archivo Black';
-	font-size: 80px;
+	font-size: 36px;
 	color: white;
 	opacity: 0.6;
-	top: 55%;
-	left: 27%;
+	top: 45%;
+	left: 20%;
 	animation-name: text_video_background-1;
 	animation-duration: 3s;
 }
@@ -27,11 +26,11 @@
 .text_video_background-2{
 	position: absolute;
 	font-family: 'Archivo Black';
-	font-size: 60px;
+	font-size: 27px;
 	color: #AA924F;
 	opacity: 0.75;
-	top: 70%;
-	left: 24%;
+	top: 65%;
+	left: 16%;
 	animation-name: text_video_background-2;
 	animation-duration: 6s;
 }
@@ -39,11 +38,11 @@
 .text_video_background-3{
 	position: absolute;
 	font-family: 'Archivo Black';
-	font-size: 40px;
+	font-size: 22px;
 	color: white;
 	opacity: 0.6;
 	top: 82%;
-	left: 42%;
+	left: 39%;
 	animation-name: text_video_background-3;
 	animation-duration: 7s;
 }
@@ -84,4 +83,102 @@
     margin-left: 0%;
     width: 100%;
   }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+.video_background { 
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 100%; 
+	width: 113%; 
+	overflow: hidden;
+	position: relative;
+}
+
+.section{
+	position: relative;
+}
+
+.text_video_background-1{
+	position: absolute;
+	font-family: 'Archivo Black';
+	font-size: 20px;
+	color: white;
+	opacity: 0.6;
+	top: 55%;
+	left: 26%;
+	animation-name: text_video_background-1;
+	animation-duration: 3s;
+}
+
+.text_video_background-2{
+	position: absolute;
+	font-family: 'Archivo Black';
+	font-size: 16px;
+	color: #AA924F;
+	opacity: 0.75;
+	top: 70%;
+	left: 21%;
+	animation-name: text_video_background-2;
+	animation-duration: 6s;
+}
+
+.text_video_background-3{
+	position: absolute;
+	font-family: 'Archivo Black';
+	font-size: 14px;
+	color: white;
+	opacity: 0.6;
+	top: 82%;
+	left: 39%;
+	animation-name: text_video_background-3;
+	animation-duration: 7s;
+}
+
+/*animaciones*/
+
+@keyframes text_video_background-1 {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes text_video_background-2 {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes text_video_background-3 {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px){
+
+}
+
+@media only screen and (min-width: 1025px){
+
 }
