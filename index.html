@@ -6,10 +6,12 @@
 	<title>Foo Fighters</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css" rel="stylesheet"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css" rel="stylesheet"/>
-	<link href="https://fonts.googleapis.com/css?family=Abel|News+Cycle|Wire+One|Archivo+Black" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abel|News+Cycle|Wire+One|Archivo+Black" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+	<meta name="descripcion" content="Pagina no oficial de Foo Fighters"/>
+	<meta name="keywords" content="Foo Fighters, rock, musica"/>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
 	<main>
@@ -18,22 +20,22 @@
 			<div class="logo"><h1 class="img-responsive"><a href="index.html"><img src="img/ffcentral.png" class="img-responsive" alt="The Sky's a Neighborhood"></a></h1></div>
 			<div class="list">
 				<div class="btn-group" role="group">
-					<button class="drop-list button-list" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href="views/discografia.html" target="_blank" class="buttonlist">
+					<button class="drop-list button-list" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href="#discografia" target="_blank" class="buttonlist">
 					Discografía
 					<span class="caret"></span></a>
 					</button>
 							<ul class="dropdown-menu sublista">
-								<li><a href="views/discografia.html" target="_blank">Concrete and Gold</a></li>
-								<li><a href="views/discografia.html" target="_blank">Sonic Highways</a></li>
-								<li><a href="views/discografia.html" target="_blank">Wasting Light</a></li>
-								<li><a href="views/discografia.html" target="_blank">Echoes, Silence, Patience & Grace</a></li>
-								<li><a href="views/discografia.html" target="_blank">In Your Honor</a></li>
-								<li><a href="views/discografia.html" target="_blank">One By One</a></li>
+								<li><a href="#concrete">Concrete and Gold"</a></li>
+								<li><a href="#sonic">Sonic Highways"</a></li>
+								<li><a href="#wastin">Wasting Light</a></li>
+								<li><a href="#echoes">Echoes, Silence, Patience & Grace</a></li>
+								<li><a href="#in">In Your Honor</a></li>
+								<li><a href="#one">One By One</a></li>
 							</ul>
-					<button class="button-list"><a href="views/integrantes.html" target="_blank" class="buttonlist">Integrantes</a></button>
+					<button class="button-list"><a href="#integrantes" class="buttonlist">Integrantes</a></button>
 					<!--<button class="button-list"><a href="views/merchandising.html" target="_blank" class="buttonlist">Merchandising</a></button>-->
-					<button class="button-list"><a href="views/videos.html" target="_blank" class="buttonlist">Videos</a></button>
-					<button class="button-list"><a href="views/tours.html" target="_blank" class="buttonlist">Tours</a></button>
+					<button class="button-list"><a href="#videos" class="buttonlist">Videos</a></button>
+					<button class="button-list"><a href="#tours" class="buttonlist">Tours</a></button>
 				</div>
 			</div>
 		</div>
@@ -48,39 +50,39 @@
 			<video autoplay="autoplay" loop="loop" class="particles-background" preload="auto" alt="video-particles-background"><source src="video/particles-background.mp4" type="video/mp4">
 			</video/>
 		</div>
-		<div class="flex-container" alt="discografia">
+		<div class="flex-container" id="discografia" alt="discografia">
 			<div>
 				<h2 class="title-text">DISCOGRAFÍA</h2>
 				<p class="text">Foo Fighters cuenta con 9 álbumes de estudio Foo Fighters (1995), The Colour and the Shape (1997), There Is Nothing Left to Lose (1999), One by One (2002), In Your Honor (2005), Echoes, Silence, Patience & Grace (2007), Wasting Light (2011), Sonic Highways (2014) y Concrete and Gold (2017)</p>
 			</div>
-			<div class="container-disco">
-				<h3 class="container-text">Concrete and Gold (2017)</h3>
+			<div id="concrete" class="container-disco">
+				<h3 class="container-text" href="concrete">Concrete and Gold (2017)</h3>
 				<a href="disco2017.html"><img class="img-discos" src="img/disco1.jpeg" alt="Concrete and Gold"/></a>
 			</div>
-			<div class="container-disco">
+			<div id="sonic" class="container-disco">
 				<h3 class="container-text">Sonic Highways (2014)</h3>
 				<a href="disco2007.html"><img class="img-discos" src="img/disco2.jpg" alt="Sonic Highway"/></a>
 			</div>
-			<div class="container-disco">	
+			<div id="wasting" class="container-disco">	
 				<h3 class="container-text">Wasting Light (2011)</h3>
 				<a href="disco2017.html"><img class="img-discos" src="img/disco3.jpg" alt="Wasting Light"/></a>
 			</div>
-			<div class="container-disco">
+			<div id="echoes" class="container-disco">
 				<h3 class="container-text">Echoes, Silence, Patience & Grace</h3>
 				<a href="disco2007.html"><img class="img-discos" src="img/disco4.jpg" alt="Echoes, Silence, Patience & Grace"/></a>
 			</div>	
-			<div class="container-disco">
+			<div id="in" class="container-disco">
 				<h3 class="container-text">In Your Honor (2005)</h3>
 				<a href="disco2007.html"><img class="img-discos" src="img/disco5.jpg" alt="In Your Honor"/></a>
 			</div>	
-			<div class="container-disco">
+			<div id="one" class="container-disco">
 				<h3 class="container-text">One By One (2002)</h3>
 				<a href="disco2007.html"><img class="img-discos" src="img/disco6.jpg" alt="One By One"/></a>
 			</div>
 		</div>
-		<div class="flex-container" alt="integrantes">
+		<div class="flex-container" id="integrantes" alt="integrantes">
 			<div>
-				<img src="img/integrantes2.jpg" class="banda" alt="Foo Fighters">
+				<img src="img/integrantes2.jpg" class="banda" alt="Foo Fighters"/>
 				<div class="span-bio"><h2 class="title-text">INTEGRANTES</h2>
 					<p class="text">Foo Fighters es una banda estadounidense de rock formada en Seattle en 1994 por Dave Grohl, exbaterista de Nirvana y Scream. El grupo debe su nombre a los diversos fenómenos aéreos que fueron reportados por los pilotos de los aviones en la Segunda Guerra Mundial, que se conocen colectivamente como Foo Fighters. Antes del lanzamiento de su álbum debut en 1995, Grohl, como único miembro oficial, reclutó al bajista Nate Mendel y el baterista William Goldsmith, ambos anteriormente miembros de Sunny Day Real Estate, así como su compañero en las giras de Nirvana, Pat Smear como guitarrista para completar la alineación. Goldsmith renunció durante la grabación del segundo álbum del grupo, The Colour and The Shape (1997), cuando la mayoría de las partes de batería fueron re-grabadas por el propio Grohl, hasta que se unió Taylor Hawkins. La partida de Smear siguió poco después. Fue reemplazado por Franz Stahl, aunque fue despedido antes de la grabación del tercer álbum, There Is Nothing Left to Lose (1999). La banda continuó brevemente como trío hasta que Chris Shiflett se unió como guitarrista principal después de la finalización de There Is Nothing Left to Lose. La banda lanzó su cuarto álbum, One by One, en 2002. El grupo siguió esa versión con la de dos discos In Your Honor (2005). Pat Smear volvió a la banda en ese mismo año. Foo Fighters lanzó su sexto álbum, Echoes, Silence, Patience & Grace en 2007. En 2010, se confirmó que se había unido oficialmente Smear a la banda después de la gira con Foo Fighters como un miembro no oficial entre 2006 y 2009. En el transcurso de la carrera de la banda, cuatro de sus álbumes han ganado el Premio Grammy al mejor álbum de rock. El séptimo álbum de estudio de la banda, Wasting Light, producido por Butch Vig, fue lanzado en 2011 y su octavo álbum Sonic Highways en 2014. El 15 de septiembre de 2017, Foo Fighters publica el que sería su noveno LP, Concrete and Gold, la banda lo describe como 'Donde los extremos del Hard Rock y la sensibilidad del Pop chocan".</p>
 				</div>
@@ -214,11 +216,11 @@
 				</div>
 			</div>		
 		</div> -->
-		<div class="flex-container" alt="video">
+		<div class="flex-container" id="videos" alt="video">
 			<h2 class="title-text">Último video</h2>
 			<iframe class="youtube" src="https://www.youtube.com/embed/TRqiFPpw2fY" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
-		<div class="flex-container" alt="tours">
+		<div class="flex-container" id="tours" alt="tours">
 			<h2 class="title-text">TOURS</h2>
 			<div class="container-table">
 				<table class="tabla">
